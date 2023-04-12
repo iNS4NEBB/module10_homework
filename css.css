@@ -1,0 +1,105 @@
+/*Задание 1 */
+.j-btn-test {
+	padding: 0;
+	background-color: transparent;
+	border: none;
+	outline: none;
+	-webkit-tap-highlight-color: transparent;
+	box-shadow: none;
+	cursor: pointer;
+	display: flex;
+	margin: 5px 10px;
+	padding: 10px 15px;
+	border-radius: 1px;
+	font-size: 12px;
+	line-height: 15px;
+	text-transform: uppercase;
+	color: white;
+	background: #315efb;
+	transition: 0.3s;
+}
+  
+.btn:hover {
+	box-shadow: 0px 2px 8px 2px rgba(141,150,178,.3);
+	transform: scale(1.05);
+}
+  
+.btn_text {
+	margin: 0 auto;
+}
+  
+.btn_icon {
+	width: 15px;
+	height: 15px;
+	font-size: 15px;
+}
+    
+.btn_icon {
+	animation-duration: 1s;
+	animation-name: magic;
+	animation-iteration-count: infinite;
+}
+/*Задание 1*/
+
+.btn-request {
+	color: white;
+	background: #315efb;
+	border: none;
+	padding: 10px 15px;
+}
+
+/*Задание 3*/
+#chat {
+	width: 450px;
+	margin: 15px auto;
+	padding: 20px;
+  }
+  
+  .info_output {
+	color: black;
+	font-style: italic;
+  }
+  
+  .chat_output {
+	margin: 20px 0;
+	border: 3px solid #ADD8E6;
+	padding: 10px;
+	height: 250px;
+	overflow-y: scroll;
+	position: relative;
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+  }
+  
+  .chat_output > div {
+	max-width: 80%;
+	padding: 5px 10px;
+	margin: 5px 0;
+	border-radius: 3px;
+	color: #fff;
+  }
+  
+  .chat_output .recieved {
+	background: #353580;
+	align-self: flex-start;
+  }
+  .chat_output .sent {
+	background: #1b8a1b;
+	align-self: flex-end;
+  }
+  .chat_input input {
+	width: 230px;
+	padding: 5px 10px;
+	border: 3px solid #ADD8E6;
+  }
+  .btn {
+	padding: 7px 10px;
+	color: black;
+	background: #ADD8E6;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+  }
+
+  
